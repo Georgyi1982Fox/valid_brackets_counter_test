@@ -25,11 +25,7 @@ public class ValidBrackets{
         }
         if(sum != 0){
             System.out.println(sum + " " + "- " + validBracketAmount.get(sum));
-        }else System.out.println(sum);
-    }
-    public static void main(String[] args) {
-
-        ValidBrackets.validBracketsCounter(")()");
+        } else System.out.println(sum);
     }
 }
 
