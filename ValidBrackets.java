@@ -27,6 +27,13 @@ public class ValidBrackets{
             System.out.println(sum + " " + "- " + validBracketAmount.get(sum));
         } else System.out.println(sum);
     }
+     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Ввод: ");
+        String brackets = in.nextLine();
+        System.out.print("Вывод: ");
+        ValidBrackets.validBracketsCounter(brackets);
+    }
 }
 
 
